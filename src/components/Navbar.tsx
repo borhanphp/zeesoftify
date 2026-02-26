@@ -37,7 +37,7 @@ export default function Navbar() {
                         <span className="font-bold text-xl text-white">Z</span>
                     </div>
                     <span className="font-bold text-2xl tracking-tight">
-                        Zee<span className="text-gradient">softify</span>
+                        Zee<span className="text-gradient">Softify</span>
                     </span>
                 </Link>
 

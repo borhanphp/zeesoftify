@@ -19,7 +19,7 @@ export default function Footer() {
                                 <span className="font-bold text-xl text-white">Z</span>
                             </div>
                             <span className="font-bold text-2xl tracking-tight">
-                                Zee<span className="text-gradient">softify</span>
+                                Zee<span className="text-gradient">Softify</span>
                             </span>
                         </Link>
                         <p className="text-gray-400 text-sm leading-relaxed">
@@ -64,11 +64,11 @@ export default function Footer() {
                         <ul className="space-y-4">
                             <li className="flex gap-3 text-sm text-gray-400">
                                 <MapPin size={18} className="text-primary shrink-0" />
-                                <span>123 Innovation Drive, Tech District, SF 94107</span>
+                                <span>Agrabad commercial area, Chattogram, Bangladesh</span>
                             </li>
                             <li className="flex gap-3 text-sm text-gray-400">
                                 <Phone size={18} className="text-secondary shrink-0" />
-                                <span>+1 (555) 123-4567</span>
+                                <span>+8801885107614</span>
                             </li>
                             <li className="flex gap-3 text-sm text-gray-400">
                                 <Mail size={18} className="text-accent shrink-0" />
