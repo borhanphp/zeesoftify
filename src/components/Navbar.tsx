@@ -57,7 +57,7 @@ export default function Navbar() {
                 {/* Desktop CTA */}
                 <div className="hidden md:flex">
                     <Link
-                        href="#contact"
+                        href="/contact"
                         className="group relative inline-flex items-center gap-2 px-6 py-2.5 bg-white/10 hover:bg-white/20 border border-white/10 rounded-full text-sm font-medium text-white transition-all overflow-hidden"
                     >
                         <span className="relative z-10 flex items-center gap-2">
@@ -95,7 +95,7 @@ export default function Navbar() {
                         </Link>
                     ))}
                     <Link
-                        href="#contact"
+                        href="/contact"
                         className="flex items-center justify-center gap-2 w-full py-3 bg-gradient-to-r from-primary to-accent rounded-lg text-white font-medium shadow-lg"
                         onClick={() => setIsMobileMenuOpen(false)}
                     >

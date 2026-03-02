@@ -105,7 +105,7 @@ export default function Home() {
             </motion.p>
 
             <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row items-center gap-4 w-full justify-center">
-              <Link href="#contact" className="w-full sm:w-auto px-8 py-4 bg-white text-black rounded-full font-semibold hover:bg-gray-200 transition-colors flex items-center justify-center gap-2">
+              <Link href="/contact" className="w-full sm:w-auto px-8 py-4 bg-white text-black rounded-full font-semibold hover:bg-gray-200 transition-colors flex items-center justify-center gap-2">
                 Start a Project <ArrowRight size={20} />
               </Link>
               <Link href="#products" className="w-full sm:w-auto px-8 py-4 glass border border-white/10 rounded-full font-semibold hover:bg-white/5 transition-colors">
@@ -317,9 +317,9 @@ export default function Home() {
               </p>
 
               <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-                <a href="mailto:hello@zeesoftify.com" className="w-full sm:w-auto px-10 py-4 bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-white rounded-full font-bold transition-all shadow-lg hover:shadow-primary/25 flex items-center justify-center gap-2">
+                <Link href="/contact" className="w-full sm:w-auto px-10 py-4 bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-white rounded-full font-bold transition-all shadow-lg hover:shadow-primary/25 flex items-center justify-center gap-2">
                   Contact Us Now <ArrowRight size={20} />
-                </a>
+                </Link>
               </div>
             </div>
           </motion.div>
